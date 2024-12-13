@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>https://fivem.illium.cx/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Dec 2024 23:31:30 +0000</lastBuildDate>
+    <atom:link href="https://fivem.illium.cx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fivem</title>
+      <link>https://fivem.illium.cx/tags/fivem/</link>
+      <pubDate>Thu, 12 Dec 2024 23:31:30 +0000</pubDate>
+      <guid>https://fivem.illium.cx/tags/fivem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mariadb</title>
+      <link>https://fivem.illium.cx/tags/mariadb/</link>
+      <pubDate>Thu, 12 Dec 2024 23:31:30 +0000</pubDate>
+      <guid>https://fivem.illium.cx/tags/mariadb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qbcore</title>
+      <link>https://fivem.illium.cx/tags/qbcore/</link>
+      <pubDate>Thu, 12 Dec 2024 23:31:30 +0000</pubDate>
+      <guid>https://fivem.illium.cx/tags/qbcore/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Txadmin</title>
+      <link>https://fivem.illium.cx/tags/txadmin/</link>
+      <pubDate>Thu, 12 Dec 2024 23:31:30 +0000</pubDate>
+      <guid>https://fivem.illium.cx/tags/txadmin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ufw</title>
+      <link>https://fivem.illium.cx/tags/ufw/</link>
+      <pubDate>Thu, 12 Dec 2024 23:31:30 +0000</pubDate>
+      <guid>https://fivem.illium.cx/tags/ufw/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

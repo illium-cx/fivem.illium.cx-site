@@ -1,0 +1,78 @@
+baseURL = 'https://fivem.illium.cx/'
+languageCode = 'en-us'
+theme = 'fivem.illium.cx-theme'
+
+[module]
+    [module.hugoVersion]
+        min = "0.112.0"
+
+[taxonomies]
+    autor = "author"
+    tag = "tags"
+    category = "categories"
+    
+[params]
+    [params.site]
+        faviconUrl = ""
+        localCss = []
+        externalCss = []
+        externalCssDownload = []
+        localJs = []
+        externalJs = []
+        externalJsDownload = []
+        googleVerification = ""
+        bingVerifivation = ""
+
+    [params.header]
+        title = "Notes"
+        subtitle = ""
+        [params.header.logo]
+            imgUrl = ""
+            logoLink = ""
+
+    [params.footer]
+        copyrightStr = ""
+        counter = true
+        language = true
+        hugoVersion = true
+        theme = true
+        modifiedTime = true
+        dateFormat = "Jan 02 2006 15:04:05"
+        gitHash = true
+        [params.footer.socialLink]
+            github = ""
+            facebook = ""
+            twitter = ""
+            email = ""
+            linkedin = ""
+            instagram = ""
+            telegram = ""
+            medium = ""
+            vimeo = ""
+            youtube = ""
+
+    [params.globalFrontmatter]
+        author = "Illium"
+        description = "Notes on installing/configuring FiveM, txAdmin, QBCore and other related utilites"
+        keywords = "fivem,txadmin,qbcore,linux,debian,nginx,mariadb,javascript,lua"
+
+    [params.homePage]
+        siteLongDescription = ""
+        siteLongDescriptionTitle = "Start"
+        showRecentPostsBlock = true
+        numOfRecentPosts = 5
+        recentPostShowUrl = true
+    
+    [params.page]
+        includeToc = true
+        showAuthor = true
+        showDate = true
+        dateFormat = "2006.01.02"
+        showTimeToRead = true
+        showBreadcrumb = true
+        codeBlockCopible = true
+        useMath = false
+        trustedmath = false
+
+    [params.preference]
+        showFileName = false

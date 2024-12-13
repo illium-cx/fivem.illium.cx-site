@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TxAdmin on </title>
+    <link>https://fivem.illium.cx/categories/txadmin/</link>
+    <description>Recent content in TxAdmin on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Dec 2024 23:31:30 +0000</lastBuildDate>
+    <atom:link href="https://fivem.illium.cx/categories/txadmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to selfhost a public FiveM server with txAdmin and QBcore</title>
+      <link>https://fivem.illium.cx/fivem/how-to-selfhost-public-fivem-txadmin-qbcore/</link>
+      <pubDate>Thu, 12 Dec 2024 23:31:30 +0000</pubDate>
+      <guid>https://fivem.illium.cx/fivem/how-to-selfhost-public-fivem-txadmin-qbcore/</guid>
+      <description>&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MariaDB&lt;/li&gt;&#xA;&lt;li&gt;ufw&lt;/li&gt;&#xA;&lt;li&gt;FiveM&lt;/li&gt;&#xA;&lt;li&gt;txadmin&lt;/li&gt;&#xA;&lt;li&gt;QBox&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This guide assumes a fresh debian install, starting as &lt;code&gt;root&lt;/code&gt;. This is on VPS so there&amp;rsquo;s no need to portforward. Home-hosting is not recommended.&lt;/p&gt;&#xA;&lt;p&gt;Shell into your server and start by updating your packages. Then create your new &lt;code&gt;sudo&lt;/code&gt; user and switch to it. We&amp;rsquo;ll use this new user going forward.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;codeblock&#34;&gt;&#xA;    &#xA;        &lt;div class=&#34;copy-button-box&#34;&gt;&#xA;            &lt;button class=&#34;copy-button&#34; state=&#34;copy&#34; data=&#34;ssh%20default@server&#34;&gt;&#xA;                &lt;i class=&#34;bi bi-copy&#34;&gt;&lt;/i&gt;&#xA;            &lt;/button&gt;&#xA;        &lt;/div&gt;&#xA;    &#xA;&#xA;    &#xA;        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ssh default@server&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;codeblock&#34;&gt;&#xA;    &#xA;        &lt;div class=&#34;copy-button-box&#34;&gt;&#xA;            &lt;button class=&#34;copy-button&#34; state=&#34;copy&#34; data=&#34;apt%20update;%20apt%20upgrade%20-y;%0aadduser%20user%20#replace%20%27user%27%20with%20your%20desired%20username%0ausermod%20-aG%20sudo%20user%0asu%20-%20user&#34;&gt;&#xA;                &lt;i class=&#34;bi bi-copy&#34;&gt;&lt;/i&gt;&#xA;            &lt;/button&gt;&#xA;        &lt;/div&gt;&#xA;    &#xA;&#xA;    &#xA;        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt update; apt upgrade -y;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;adduser user &lt;span style=&#34;color:#75715e&#34;&gt;#replace &amp;#39;user&amp;#39; with your desired username&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;usermod -aG sudo user&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;su - user&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;    &#xA;&lt;/div&gt;&#xA;&lt;p&gt;This would be a good time to set up this new user&amp;rsquo;s ssh keys&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

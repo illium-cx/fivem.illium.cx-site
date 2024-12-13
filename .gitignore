@@ -1,0 +1,24 @@
+/public/
+/resources/
+/hugo_stats.json
+/themes/fivem.illium.cx-theme
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+*.tmp
+*.log
+
+node_modules/
+vendor/
+
+# Temporary files
+.tmp/
+.cache/
+
+build/
+dist/
